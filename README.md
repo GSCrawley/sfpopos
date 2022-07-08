@@ -6,5 +6,6 @@
 
 ### People visiting this site could be almost anyone of almost any age. Recall the user stories you learned to write in SPD. Let's write some for possible users of our site:
 
-### As a user I want to find all of the public open spaces in San Francisco
-### As a user I want to find a public open space near me
+* ### As a user I want to find all of the public open spaces in San Francisco
+* ### As a user I want to find a public open space near me
+* ### As a user I want to view details about pupblic open spaces I might want to visit.
