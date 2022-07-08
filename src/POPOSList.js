@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import POPOSSpace from './POPOSSpace';
 
 
 function POPOSList() {
     return (
         <div>
-            <h1>Keep your eye on this space for future content...</h1>
-            <img src={logo} />
+            <POPOSSpace />
+            <POPOSSpace />
+            <POPOSSpace />
+            <POPOSSpace />
 
         </div>
     )
