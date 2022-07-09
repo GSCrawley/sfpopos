@@ -4,8 +4,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 60px;
+    padding-top:10px;
 }
 
 .container {
-    background-color:  #7cdaf1
+    background-color:  #e2e2c8
 }
