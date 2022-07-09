@@ -5,6 +5,7 @@ import './POPOSList.css';
 
 function POPOSList() {
     return (
+        <div className="container">
         <div className="POPOSList">
             <POPOSSpace 
             name="50 California Street"
@@ -30,7 +31,7 @@ function POPOSList() {
             name="Citigroup Center"
             address="1 Sansome St."
             image="citigroup-center.jpg"/>
-
+        </div>
         </div>
     )
 }

@@ -1,8 +1,9 @@
+import './POPOSSpace.css'
 
 function POPOSSpace(props) {
     const {name, image, address} = props;
     return (
-        <div>
+        <div className = 'POPOSSpace'>
              <div>{address}</div>
             <img src={`${process.env.PUBLIC_URL}/images/${image}`}     
                 width="300"

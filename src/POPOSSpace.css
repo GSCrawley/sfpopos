@@ -1,0 +1,15 @@
+.POPOSSpace {
+    width: 100%;
+    text-align: center;
+    background-color: #d9ecf1;
+    padding: 1rem;
+
+  }
+  
+  .POPOSSpace > img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+  }
+
+  
