@@ -1,0 +1,15 @@
+.footer {
+    position:inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(103, 6, 108);
+    /* color: #d9ecf1; */
+    text-align: center;
+    
+  }
+
+  .footer-text {
+      padding: 1em;
+      color: #d9ecf1;
+    }
