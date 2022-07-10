@@ -13,4 +13,9 @@
     padding-top: 10px;
   }
 
+  .POPOSSpace > .hours {
+      font-style: italic;
+      font-size:small;
+  }
+
   
