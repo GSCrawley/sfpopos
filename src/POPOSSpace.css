@@ -13,9 +13,14 @@
     padding-top: 10px;
   }
 
-  .POPOSSpace > .hours {
+  .hours {
       font-style: italic;
       font-size:small;
   }
+
+  /* .descriptions {
+        font-size:xx-small;
+        font-style:bold;
+  } */
 
   

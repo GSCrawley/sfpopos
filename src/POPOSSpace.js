@@ -7,8 +7,8 @@ function POPOSSpace(props) {
         <div className = 'POPOSSpace'>
              <div>{address}</div>
             <img src={`${process.env.PUBLIC_URL}/images/${image}`}     
-                width="300"
-                height="300"
+                width="400"
+                height="400"
                 alt="Hello"
             />
             <h1>{name}</h1>
