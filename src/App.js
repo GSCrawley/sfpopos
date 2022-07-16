@@ -4,9 +4,6 @@ import { Outlet } from 'react-router-dom';
 import './App.css';
 import Title from './Title';
 
-// import POPOSList from './POPOSList';
-// import Footer from './Footer';
-
 
 
 
@@ -15,8 +12,6 @@ function App() {
     <div className="App">
       <Title />
       <Outlet />
-      {/* <Footer /> */}
-
     </div>
   );
 }

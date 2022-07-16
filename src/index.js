@@ -5,24 +5,21 @@ import App from './App';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './About';
 import POPOSList from './POPOSList';
-import { createRoot } from 'react-dom/client';                                                                '
+import * as ReactDOMClient from 'react-dom/client';                                                                
 
 
-const container = document.getElementById('app');
-const root = createRoot(container);
+const container = document.getElementById('root');
+const root = ReactDOMClient.createRoot(container);
 
 root.render(
-  <React.StrictMode>
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="list" element={<POPOSList />} />
+        <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
       </Route>
     </Routes>
   </Router>
-  </React.StrictMode>,
-  // document.getElementById('root')
 );
 
 
