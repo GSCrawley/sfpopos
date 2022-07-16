@@ -9,3 +9,9 @@
 * ### As a user I want to find all of the public open spaces in San Francisco
 * ### As a user I want to find a public open space near me
 * ### As a user I want to view details about pupblic open spaces I might want to visit.
+-----------------------------------
+## After settinmg up my routes, for some reason I'm still not sure of, I couldn't run the program, and was given the following error: 
+
+# "opensslErrorStack: [ ‘error:03000086:digital envelope routines::initialization error’ ]"
+
+## this issue is solved by adding '--openssl-legacy-provider'  in the terminal and then in the build and start scripts, as follows: "yarn start --openssl-legacy-provider ./node_modules/.bin/react-scripts 
