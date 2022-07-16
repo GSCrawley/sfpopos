@@ -1,23 +1,21 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
+
 import './App.css';
 import Title from './Title';
-import POPOSList from './POPOSList';
-import Footer from './Footer';
-// import GoogleMap from './GoogleMap';
-// import { Wrapper } from "@googlemaps/react-wrapper";
+
+// import POPOSList from './POPOSList';
+// import Footer from './Footer';
+
 
 
 
 function App() {
   return (
-
     <div className="App">
-      {/* <Wrapper apiKey={"YOUR_API_KEY"}> */}
       <Title />
-      <POPOSList />
-      {/* <GoogleMap /> */}
-      <Footer />
-      {/* </Wrapper> */}
+      <Outlet />
+      {/* <Footer /> */}
 
     </div>
   );
