@@ -5,21 +5,28 @@
     justify-content: center;
     align-items: baseline;
     padding: 1em;
-    margin-bottom: 2em;
+    /* margin-bottom: 1em; */
     background-color: rgb(156, 34, 162);
     color: #bce1eb;
 
   }
 
   .Title-Subtitle {
-      padding: 1em;
+      padding-bottom: 2em;
       color: #d9ecf1;
     }
 
   .Title a {
-      display:inline;
-      padding: 1rem;
-      color: rgba(255, 255, 255, 0.835);
+      display:inline-block;
+      padding: 1em;
+      color: #bce1eb;
       font-weight: bold;
+      margin: 1.5rem;
+      margin-top: -1rem;
       text-decoration: none;
     } 
+
+  .Title .nav-link-active {
+    color: #fff;
+    border-bottom: 2px solid;
+  }

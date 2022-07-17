@@ -1,0 +1,24 @@
+.container {
+    box-sizing:content-box;
+    /* width: 80%; */
+    display:flexbox;
+    justify-content: center;
+    /* align-items: baseline; */
+    /* padding: 1em; */
+    /* margin-bottom: 2em; */
+    background-color:#bce1eb ;
+    /* color: rgb(156, 34, 162); */
+
+  }
+
+.h1 {
+    color: rgb(156, 34, 162);
+    background-color:#bce1eb ;
+
+
+}  
+/*  
+#About {
+    background-color:#bce1eb ;
+
+} */
