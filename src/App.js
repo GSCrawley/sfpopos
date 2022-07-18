@@ -1,6 +1,5 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
-
 import './App.css';
 import Title from './Title';
 

@@ -1,11 +1,9 @@
 .container {
-    box-sizing:content-box;
-    /* width: 80%; */
+    box-sizing:border-box;
     display:flexbox;
     justify-content: center;
-    /* align-items: baseline; */
-    /* padding: 1em; */
-    /* margin-bottom: 2em; */
+    align-items: baseline;
+    margin: 2em;
     background-color:#bce1eb ;
     /* color: rgb(156, 34, 162); */
 

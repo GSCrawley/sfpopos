@@ -5,7 +5,7 @@ import './About.css'
 function About() {
   return (
     <div className="container">
-      <h1>About SFPOPOS</h1>
+      <h1>About SF POPOS</h1>
       <p>POPOS are publicly accessible spaces in
         forms of plazas, terraces, atriums, small
         parks, and even snippets which are provided
