@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router'
+
 import data from '../../sfpopos-data.json'
 
 function POPOSDetails(props) {
