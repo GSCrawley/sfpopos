@@ -35,7 +35,7 @@ function POPOSList() {
                         placeholder="search"
                         onChange={(e) => setQuery(e.target.value)}
                         />
-                        <button type="submit">Submit</button>
+                        <button type="submit">submit</button>
                 </form>
                 { spaces }
         </div>
