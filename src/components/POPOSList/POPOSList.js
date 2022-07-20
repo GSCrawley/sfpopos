@@ -1,25 +1,31 @@
 import React, { useState } from 'react';
 import POPOSSpace from '../POPOSSpace/POPOSSpace';
 import './POPOSList.css';
-import data from '../../sfpopos-data.json'
+import data from '../../sfpopos-data.js'
 
 
 function POPOSList() {
     const [ query, setQuery ] = useState('')
-    const spaces = data
-    .filter(obj => obj.title.includes(query) || obj.address.includes(query))
-    .map(({ title, address, images, hours }, i) => {
+    const spaces = data.filter((obj) => {
+        const inTitle = obj.title.includes(query)
+        const inAddress = obj.address.includes(query)
+        const inFeatures = obj.features.includes(query)
+        return inTitle || inAddress || inFeatures
+    }).map((obj) => {
+        const { id, title, address, images, hours, features } = obj
+
         return (
             <POPOSSpace
-                id={i}
-                key={title}
+                id={id}
+                key={`${title}-${id}`}
                 address={address}
                 image={images[0]}
                 name={title}
+                features={features}
                 hours={hours}
             />
-        )
-    })
+    )})
+
     return (
         <div className="container">
             <div className="POPOSList">
@@ -36,7 +42,6 @@ function POPOSList() {
         </div>
     )
 }
-
 
 
 export default POPOSList
