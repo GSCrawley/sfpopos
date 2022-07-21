@@ -4,20 +4,20 @@
     display: flex;
     justify-content: center;
     /* align-items:baseline; */
-    background-color: rgb(156, 34, 162);
-    color: #bce1eb;
+    background-color: rgb(201, 152, 61);
+    color: rgb(130, 88, 12)
 
   }
 
   .Title-Subtitle {
       padding-bottom: 2em;
-      color: #d9ecf1;
+      color: rgb(130, 88, 12);
     }
 
   .Title a {
       display:inline-block;
       padding: 1em;
-      color: #bce1eb;
+      color: rgb(130, 88, 12);
       font-weight: bold;
       margin: 1.5rem;
       margin-top: -1rem;
