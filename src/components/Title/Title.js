@@ -15,7 +15,7 @@ function Title() {
                 <div className="Nav">
                     <NavLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
                         to="/">List</NavLink>
-                         <RandomSpace className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } />
+                         <RandomSpace className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }/>
                     <NavLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
                         to="/about">About</NavLink>
 

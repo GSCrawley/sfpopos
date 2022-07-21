@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     /* align-items:baseline; */
-    background-color: rgb(201, 152, 61);
+    background-color: rgb(228, 186, 106);
     color: rgb(130, 88, 12)
 
   }
@@ -24,7 +24,7 @@
       text-decoration: none;
     } 
 
-  .Title .nav-link-active {
+  .nav-link-active {
     color: #fff;
     border-bottom: 2px solid;
   }
