@@ -14,4 +14,10 @@
 
 # "opensslErrorStack: [ ‘error:03000086:digital envelope routines::initialization error’ ]"
 
-## this issue is solved by adding '--openssl-legacy-provider'  in the terminal and then in the build and start scripts, as follows: "yarn start --openssl-legacy-provider ./node_modules/.bin/react-scripts 
+## this issue ^^^ is solved by adding '--openssl-legacy-provider'  in the terminal and then in the build and start scripts, as follows: "yarn start --openssl-legacy-provider ./node_modules/.bin/react-scripts 
+
+
+## steps before prisma integration
+### set up Express server 
+### move data from json file to express server, create route to serve file. (just get data showing in the browser for now)
+### update client to get JSON data from server
