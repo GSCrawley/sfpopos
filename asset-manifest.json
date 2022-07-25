@@ -1,5 +1,5 @@
 {
-  "main.css": "/sfpopos/static/css/main.4b6203eb.chunk.css",
+  "main.css": "/sfpopos/static/css/main.0b980047.chunk.css",
   "main.js": "/sfpopos/static/js/main.05aee681.chunk.js",
   "main.js.map": "/sfpopos/static/js/main.05aee681.chunk.js.map",
   "runtime~main.js": "/sfpopos/static/js/runtime~main.b264b361.js",
@@ -7,7 +7,7 @@
   "static/js/2.fea5e2a9.chunk.js": "/sfpopos/static/js/2.fea5e2a9.chunk.js",
   "static/js/2.fea5e2a9.chunk.js.map": "/sfpopos/static/js/2.fea5e2a9.chunk.js.map",
   "index.html": "/sfpopos/index.html",
-  "precache-manifest.40735aad9667c93cac5e6622806291a7.js": "/sfpopos/precache-manifest.40735aad9667c93cac5e6622806291a7.js",
+  "precache-manifest.0d8f04e4005b1ced6491d95402df8e8e.js": "/sfpopos/precache-manifest.0d8f04e4005b1ced6491d95402df8e8e.js",
   "service-worker.js": "/sfpopos/service-worker.js",
-  "static/css/main.4b6203eb.chunk.css.map": "/sfpopos/static/css/main.4b6203eb.chunk.css.map"
+  "static/css/main.0b980047.chunk.css.map": "/sfpopos/static/css/main.0b980047.chunk.css.map"
 }
