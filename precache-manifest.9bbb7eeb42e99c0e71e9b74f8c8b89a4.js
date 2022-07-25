@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "789ab7be93c1268bee34",
+    "revision": "c7d0d8d2d76e05840b23",
     "url": "/sfpopos/static/css/main.0b980047.chunk.css"
   },
   {
-    "revision": "789ab7be93c1268bee34",
-    "url": "/sfpopos/static/js/main.05aee681.chunk.js"
+    "revision": "c7d0d8d2d76e05840b23",
+    "url": "/sfpopos/static/js/main.b49c5301.chunk.js"
   },
   {
     "revision": "e8db8a8ed934569444f0",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/sfpopos/static/js/2.fea5e2a9.chunk.js"
   },
   {
-    "revision": "ad1ad3613f4a944b31b7ad4a55a4fdf2",
+    "revision": "6de8daf42eecebf1cb2414a6c61ee386",
     "url": "/sfpopos/index.html"
   }
 ];
