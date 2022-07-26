@@ -23,10 +23,9 @@
 
 .POPOSDetails .POPOSDetails-image img {
 	width: 100%;
-    margin-bottom: 2rem;
 }
 
-.POPOSDetails .POPOSDetails-hours {
-	font-size: 1.5em;
+.POPOSDetails-hours {
+	font-size: 1em;
+	padding:1rem;
 }
-
